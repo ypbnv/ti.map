@@ -203,6 +203,7 @@ public class TiUIMapView extends TiUIFragment
 		mClusterManager.setOnClusterClickListener(this);
 
 		((ViewProxy) proxy).clearPreloadObjects();
+		proxy.realizeViews(this);
 	}
 
 	@Override
